@@ -1,4 +1,4 @@
-package samples.qiushibaike;
+package samples.pipeline;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -17,6 +17,10 @@ import us.codecraft.webmagic.Task;
 import us.codecraft.webmagic.pipeline.Pipeline;
 import us.codecraft.webmagic.utils.FilePersistentBase;
 
+/**
+ * 糗事百科-内容保存为文本
+ * @author qq3434569
+ */
 public class QiuShiBaiKePipeline extends FilePersistentBase implements Pipeline {
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 

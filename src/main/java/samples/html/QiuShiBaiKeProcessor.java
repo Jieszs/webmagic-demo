@@ -1,11 +1,10 @@
-package samples.qiushibaike;
+package samples.html;
 
+import samples.pipeline.QiuShiBaiKePipeline;
 import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.Site;
 import us.codecraft.webmagic.Spider;
-import us.codecraft.webmagic.pipeline.FilePipeline;
 import us.codecraft.webmagic.processor.PageProcessor;
-import us.codecraft.webmagic.scheduler.FileCacheQueueScheduler;
 
 import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
