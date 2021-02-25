@@ -64,6 +64,12 @@ public class DownLoadUtil {
             inStream.close();
             outStream.close();
             File file = new File(path);
+            if (!file.getParentFile().exists()) {
+                file.getParentFile().mkdirs();
+            }
+            if (!file.exists()) {
+                file.createNewFile();
+            }
             FileOutputStream op = new FileOutputStream(file);
             op.write(outStream.toByteArray());
             op.close();
