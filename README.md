@@ -1,4 +1,6 @@
 # webmagic-demo
+####  webmagic文档地址 http://webmagic.io/docs/zh/
+####  Selenium文档地址 https://www.selenium.dev/documentation/zh-cn/getting_started/
 ### webmagic 0.7.4 爬虫示例
 
 1. ZhiChiKeFuListProcessor 模拟ajax的get请求获取列表
@@ -8,4 +10,5 @@
 5. ZipCodePageProcessor 爬取两层静态页面文本结果
 6. ZhanZhangSuCaiProcessor 模拟分页爬取静态页面,下载图片
 7. DianShanShiPinProcessor 模拟分页爬取静态页面,下载视频
-注意：替换slf4j-log4j12包，并进行log4j.xml配置。
+
+### 注意：替换slf4j-log4j12包，并进行log4j.xml配置。
