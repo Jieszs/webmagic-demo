@@ -1,4 +1,4 @@
-package samples.selenium.browser;
+package selenium.samples.browser;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;

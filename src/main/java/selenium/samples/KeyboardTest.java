@@ -1,4 +1,4 @@
-package samples.selenium;
+package selenium.samples;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

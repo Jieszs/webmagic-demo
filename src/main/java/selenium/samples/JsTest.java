@@ -1,9 +1,7 @@
-package samples.selenium;
+package selenium.samples;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.util.Set;
 
 /**
  * 调用JavaScript代码
