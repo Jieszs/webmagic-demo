@@ -10,5 +10,6 @@
 5. ZipCodePageProcessor 爬取两层静态页面文本结果
 6. ZhanZhangSuCaiProcessor 模拟分页爬取静态页面,下载图片
 7. DianShanShiPinProcessor 模拟分页爬取静态页面,下载视频
+8. ZhiChiKeFuProcessor 使用selenium和webmagic，爬取动态渲染页面
 
 ### 注意：替换slf4j-log4j12包，并进行log4j.xml配置。
