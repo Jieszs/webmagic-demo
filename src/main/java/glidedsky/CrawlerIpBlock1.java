@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
  *
  * @author qq3434569
  */
-public class CrawlerBasic3 implements PageProcessor {
+public class CrawlerIpBlock1 implements PageProcessor {
     public volatile int answer = 0;
 
     @Override
@@ -52,7 +52,7 @@ public class CrawlerBasic3 implements PageProcessor {
     }
 
     public static void main(String[] args) {
-        Spider spider = Spider.create(new CrawlerBasic3());
+        Spider spider = Spider.create(new CrawlerIpBlock1());
         spider.thread(10);
         for (int i = 1; i <= 1000; i++) {
             spider.addUrl("http://www.glidedsky.com/level/web/crawler-basic-2?page=" + i);
